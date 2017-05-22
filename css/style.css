@@ -1,0 +1,48 @@
+img {
+  height: 250px;
+  width: 500px; }
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+
+.package {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+#slider {
+  width: 500px;
+  height: 250px;
+  overflow: hidden; }
+  #slider .slides {
+    display: block;
+    width: 6000px;
+    height: 250px;
+    margin: 0;
+    padding: 0; }
+  #slider .slide {
+    float: left;
+    list-style: none;
+    width: 500px;
+    height: 250px; }
+
+.prev, .next {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  background-color: black; }
+
+.indicators {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  .indicators .indicator {
+    list-style: circle;
+    padding-right: 20px;
+    cursor: pointer; }
+  .indicators .active {
+    list-style: disc; }
+
+/*# sourceMappingURL=style.css.map */
